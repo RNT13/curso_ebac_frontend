@@ -1,31 +1,178 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
     <header>
-        <h1>Formulário de cadastro</h1>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <form action="">
-        <label for="name" >Nome:</label>
-        <input id="name" placeholder="Seu Nome" type="text">
-        <br>
-        <label for="email">E-mail:</label>
-        <input id="email" placeholder="email" type="email">
-        <br>
-        <label for="password">Senha:</label>
-        <input type="password" id="password"> 
-        <br>
-        <button class="botaoenvio" type="submit">Cadastrar</button>
-        <button class="botaoapagar" type="reset">Apagar dados</button>
-        </form>
-    </main>
-    <footer>
-    </footer>
+    <section id="sports">
+        <div class="container"><h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                    <header>
+                        <time class="creation-date" >13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container"><h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="tecnologia">
+        <div class="container"><h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/365-O-que-é-tecnologia_.webp" alt="Um globo terrestre interconectado com diversas telas e redes de computadores">
+                    <header>
+                        <time>18/6/2024 às 16:15</time>
+                    </header>
+                    <h3>O que é tecnologia?</h3>
+                    <p>
+                        O termo “tecnologia” vem do grego tekhne que significa “técnica, arte, ofício”, juntamente com a palavra logos, também grega, que refere-se ao “conjunto dos saberes”. A tecnologia é um objeto de estudo constante da ciência e da engenharia que envolve vários instrumentos, técnicas e métodos que visam a resolução de situações problemáticas.
+De acordo com o dicionário Michaelis
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/flamingo sem cabeça.webp" alt="Uma imagem real de  um flamingo com a cabeça escondida entre as penas">
+                    <header>
+                        <time>18/6/2024 às 16:55</time>
+                        <h3>Foto real de flamingo “sem cabeça” vence concurso de inteligência artificial</h3>
+                        <p>
+                            Como as imagens geradas por IA (inteligencia artificial) começaram a se infiltrar em concursos de arte e fotografia nos últimos dois anos, às vezes enganando os jurados e provocando ansiedade e raiva entre os artistas, o fotógrafo Miles Astray decidiu que era hora de virar a maré. Em uma categoria de IA no Concurso de Fotografia Colorida do 1839 Awards, Astray fez um ato de subterfúgio emplumado, inserindo uma foto real de um flamingo que ele tirou em Aruba.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </header>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="entretenimento">
+        <div class="container"><h2>Entretenimento</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/301524478_444421617706575_8935530410680446912_n.jpg" alt="Pessoas sentadas ao fundo e conversando, em primeiro plano há um balde de pipocas">
+                    <header>
+                        <time>18/6/2024 às 16:25</time>
+                    </header>
+                    <h3>83% das pessoas não vivem sem entretenimento</h3>
+                    <p>
+                        O entretenimento é vital para 83% das pessoas no mundo, segundo aponta o estudo “The Future of Entertainment” sobre transformação digital e a relação dos consumidores com as marcas. Essa parcela aumenta para 92% entre os “prosumers”, aqueles que ditam tendências.
+Segundo a Havas, agência responsável pela publicação da pesquisa, os prosumers representam de 15% a 20% dos consumidores de modo geral e antecipam as tendências de consumo. A pesquisa foi feita com 17.411 pessoas acima dos 13 anos em 37 países, inclusive o Brasil, durante o primeiro semestre deste ano.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/valorant1.avif" alt="Imagem de uma partida de Valorant" >
+                    <header>
+                        <time>18/6/2024 às 17:02</time>
+                    </header>
+                    <h3>'Valorant' vai ser lançado para consoles; teste beta começa dia 14 de junho</h3>
+                    <p>
+                        A Riot anunciou nesta sexta-feira (7) que seu jogo de tiro, "Valorant", vai ser lançado finalmente para consoles. O game que mistura armas com habilidades e heróis, de 2020, deve estar disponível para Xbox Series X/S e PlayStation "em breve".
+
+O anúncio foi feito no palco do Summer Game Fest 2024 nesta sexta-feira (7).
+
+Sem uma data determinada para o lançamento oficial, a desenvolvedora de "League of legends" abre um período de testes beta na próxima sexta (14).
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Leia mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
