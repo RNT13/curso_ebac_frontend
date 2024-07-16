@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url(./imagens/background.webp);
+}
+
+header h1,
+table th,
+table tfoot {
+    font-size: 50px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header, footer {
+    background-color: #2E5E4E;
+    color: #DBD3D8;
+    padding: 14px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    font-size: 25px;
+    text-decoration: none;
+    padding: 8px;
+    background-color: #DBD3D8;
+    margin-right: 8px;
+    border-radius: 16px;
+    color: #2E5E4E;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header nav a:hover {
+    background-color: #93A7AA;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+}
+
+header img {
+    height: 60px;
+    margin-right: 16px;
+}
+
+header {
+    border-bottom: 20px solid #154938;
+}
+
+.container {
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    border-radius: 16px;
+    background-color: #2E5E4E;
+    padding: 16px;
+}
+
+form {
+    padding: 30px;
+    background-color: #DBD3D8;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    background-color: #93A7AA;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+ul {
+    padding: 15px ;
+    background-color: #DBD3D8;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 16px;
+    list-style: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    font-size: 20px;
+    border: none;
+    padding: 8px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    font-size: 16px;
+    background-color: #2E5E4E;
+    color: #DBD3D8;
+    border: none;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.removeTask {
+    background-color: rgb(119, 16, 16);
+}
+
+.removeTask:hover {
+    background-color: red;
+}
+
+form button:hover {
+    background-color: rgb(47, 150, 47);
+}
+
+#nomeDaTarefa {
+    width: 300px;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+}
