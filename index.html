@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./1main.css">
+    <link rel="stylesheet" href="./cadastroStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <div class="c-flex c-space c-vAlign c-hAlign">
+                    <div id="head" class="c-flex c-hAlign">
+                        <img src="./imagens/entre em contato icone.png" alt="icone e uma mão">
+                        <h1>Cadastro</h1>
+                    </div>
+                    <div class="menu-hamburguer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <nav>
+                    <div>
+                        <ul class="c-vAlign">
+                            <li>
+                                <a href="./home.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="./calendario.html">Calendario</a>
+                            </li>
+                            <li>
+                                <a href="./tarefas.html">Tarefas</a>
+                            </li>
+                            <li>
+                                <a href="./contatos.html">Contatos</a>
+                            </li>
+                            <li>
+                                <a href="./produtos.html">Produtos</a>
+                            </li>
+                            <li>
+                                <a href="#">Configurações</a>
+                            </li>          
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="d-flex justify-content-center">Faça Seu Cadastro</h2>
+                    <form>
+                        <div>
+                            <label for="nome" class="form-label d-flex justify-content-center">Seu nome:</label>
+                            <input id="nome" type="text" name="nome" class="form-control mx-auto" placeholder="Seu Nome">
+                        </div>
+                        <div>
+                            <label for="telefone" class="form-label d-flex justify-content-center">Seu telefone:</label>
+                            <input id="telefone" type="text" name="telefone" class="form-control mx-auto">
+                        </div>
+                        <div>
+                            <label for="email" class="form-label d-flex justify-content-center">Seu E-mail:</label>
+                            <input id="email" type="text" name="email" class="form-control mx-auto" placeholder="Seu E-mail">
+                        </div>
+                        <div>
+                            <label for="mensagem" class="form-label d-flex justify-content-center">Sua Mensagem:</label>
+                            <textarea id="mensagem" class="form-control mx-auto" placeholder="Sua Mensagem"></textarea>
+                        </div>
+                        <div class="form-check form-switch d-flex justify-content-center">
+                            <input id="aceito-termos"  class="form-check-input" type="checkbox">
+                            <label for="aceito-termos" class="form-check-label d-flex justify-content-center">Li e concordo com os termos</label>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-success" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="c-flex c-space c-vAlign c-hAlign">
+                <div>
+                    &copy; RNT projects - all rights reserved 2024
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/RNT13" target="_blank">
+                                <img src="./imagens/icone git hub.png" alt="icone do github">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="./imagens/icone linkedin.png" alt="icone do linkedin">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>            
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_PT.min.js"></script>
+    
+    <script src="./cadastroScript.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
