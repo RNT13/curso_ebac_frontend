@@ -1,0 +1,5 @@
+@use '../source/config/variaveis.scss';
+
+section ul li {
+    background-color: variaveis.$corDeFundo;
+}
